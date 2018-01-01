@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+{{ $title := .Title }} {{/*(index .Site.Params.sections ( lower .Title) "title") }}*/}}
+{{ partial "pagetitle.html" $title }}
+
+<section>
+  {{ $section := lower .Title }}
+  <div class="container">
+    {{ range .Paginator.Pages }}
+    <div class="row">
+      <div class="twelve columns">
+        {{ .Render "listitem" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ template "_internal/pagination.html" . }}
+</section>
+
+{{ partial "footer.html" . }}

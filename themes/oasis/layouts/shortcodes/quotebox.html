@@ -1,0 +1,28 @@
+{{ if .IsNamedParams }}
+  {{ $author := index .Site.Data.people (.Get "author") }}
+  <div class="quote-box">
+    <blockquote class="quote">
+      {{ .Inner }}
+    </blockquote>
+    <p class="author">
+        <span class="name">{{ $author.name }}</span>
+        <span class="title">{{ $author.title }}</span>
+    </p>
+  </div>
+  <div class="quote-headshot">
+    <img src="{{ $author.thumbnail | relURL }}" />
+  </div>
+{{ else }}
+  <div class="quote-box">
+    <blockquote class="quote">
+      {{ .Inner }}
+    </blockquote>
+    <p class="author">
+        <span class="name">&nbsp;</span>
+        <span class="title">&nbsp;</span>
+    </p>
+  </div>
+  <div class="quote-headshot">
+    <img src="{{ .Get 0 | relURL }}" />
+  </div>
+{{ end }}

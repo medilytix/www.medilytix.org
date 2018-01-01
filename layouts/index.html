@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+{{ range where .Data.Pages "Section" "page" }}
+  {{ if eq .Title "Home" }}
+    {{ .Content }}
+  {{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}

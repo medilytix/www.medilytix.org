@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+{{ partial "pagetitle.html" .Title }}
+
+<section>
+  {{ $section := lower .Title }}
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

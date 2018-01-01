@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+{{ if not (eq .Title "Home") }}
+{{ if .Params.image }}
+<div class="cover-image" style="background-image:url('{{ .Params.image | relURL }}');"></div>
+{{ end }}
+{{ partial "pagetitle.html" .Title }}
+{{ end }}
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

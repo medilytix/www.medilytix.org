@@ -1,0 +1,31 @@
+{{ with index .Site.Data.people (.Get 0) }}
+  <section class="profile">
+    <div class="thumbnail">
+      <img src="{{ .thumbnail | relURL }}" /><br />
+      {{ if .twitter_url }}
+        <span class="social-link"><a href="{{ .twitter_url }}"><i class="fa fa-twitter"></i></a></span>
+      {{ end }}
+      {{ if .linkedin_url }}
+        <span class="social-link"><a href="{{ .linkedin_url }}"><i class="fa fa-linkedin"></i></a></span>
+      {{ end }}
+      {{ if .website }}
+        <span class="social-link"><a href="{{ .website }}"><i class="fa fa-external-link"></i></a></span>
+      {{ end }}
+  </div>
+    <div class="description">
+      <h2>{{ .name }}</h2>
+      <h4 class="title">{{ .title }}</h4>
+      <p>
+        {{ .bio }}
+      </p>
+
+      {{ if .more_bio }}
+        <h4>More About {{ .nickname }}</h4>
+        <p class="more">
+          {{ .more_bio }}
+        </p>
+      {{ end }}
+    </div>
+    <br style="clear: both;" />
+  </section>
+{{ end }}

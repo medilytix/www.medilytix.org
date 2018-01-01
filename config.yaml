@@ -1,0 +1,42 @@
+baseurl: "http://www.medilytix.org/"
+title: "Medilytix"
+#googleAnalytics: "UA-XXXXXXXX-X"
+languageCode: "en-us"
+theme: "oasis"
+
+pluralizelisttitles: false
+paginate: 4
+
+permalinks:
+  page: /:filename/
+
+
+params:
+  company: Medilytix Inc.
+  logo: images/medilytix.svg
+  contact_info:
+      # phone: (781) XXX-XXXX
+      email: info@medilytix.org
+      address:
+      #   - 117 S Great Rd
+        - Lincoln MA
+      github_url: https://github.com/medilytix
+      twitter_url: https://twitter.com/medilytix
+  menu:
+    - label: Projects
+      link: /projects
+    - label: Researchers
+      link: /researchers
+    - label: Board
+      link: /board
+    - label: Collaborate
+      link: https://github.com/medilytix
+      button: true
+  footer:
+    about: "Medilytix is a 501\\(c\\)(3) organization dedicated to improving human health."
+    important_links:
+      - label: How to Donate
+        link: mailto:alexis@medilytix.org?subject=Donation%20Inquiry
+      - label: IRS Charity Check
+        link: https://apps.irs.gov/app/eos/pub78Search.do?ein1=&names=Medilytix&city=&state=All...&country=US&deductibility=all&dispatchMethod=searchCharities&submitName=Search
+    disclosure: ""

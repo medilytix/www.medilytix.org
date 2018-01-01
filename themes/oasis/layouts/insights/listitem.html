@@ -1,0 +1,19 @@
+<div class="list-item">
+  <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ if .Params.author }}
+    {{ $author := index .Site.Data.people .Params.author }}
+    <span class="author">by {{ $author.name }}</span>
+  {{ end }}
+  <!--&middot; <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>-->
+  {{ if .Params.tags }}
+    <span class="tags">
+    {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+    {{ end }}
+    </span>
+  {{ end }}
+  <div class="summary">
+    {{ .Summary }}..
+    <a class="read-more" href="{{.RelPermalink}}">Read More</a>
+  </div>
+</div>

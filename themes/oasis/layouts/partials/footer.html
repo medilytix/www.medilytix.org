@@ -1,0 +1,51 @@
+{{ if not (.Params.nofooter) }}
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="five columns">
+        <h4>About Us</h4>
+        <p>
+          {{ .Site.Params.footer.about | markdownify }}
+        </p>
+      </div>
+      <div class="three columns">
+        <h4>Important Links</h4>
+        <ul class="important-links">
+          {{ range .Site.Params.footer.important_links }}
+            <li>
+              <a href="{{ .link }}" target="_blank">{{ .label }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="four columns">
+        <h4>Contact Us</h4>
+        {{ if .Site.Params.contact_info.phone }}
+          <i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;</i>{{ .Site.Params.contact_info.phone }}<br />
+        {{ end }}
+        {{ if .Site.Params.contact_info.email }}
+          <i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;</i>{{ .Site.Params.contact_info.email }}<br />
+        {{ end }}
+        {{ if .Site.Params.contact_info.address }}
+          <i class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;</i>
+          {{ range .Site.Params.contact_info.address }}
+          {{ . }}<br />
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <p class="footer-disclosure">
+          Copyright {{ .Now.Year }} {{ .Site.Params.company }} {{ .Site.Params.footer.disclosure | markdownify }}
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+{{ end }}
+{{ partial "analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
+</body>
+
+</html>

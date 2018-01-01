@@ -1,0 +1,65 @@
+{{ partial "header.html" . }}
+
+<section>
+  <article class="blog">
+    {{ $author := index .Site.Data.people .Params.author }}
+
+    <header>
+      {{ if .Params.image }}
+      <div class="cover-image" style="background-image:url('{{ .Params.image | relURL }}');"></div>
+      {{ end }}
+
+      <div class="title">
+        <h1>{{ .Title }} <small>by {{ $author.name }} &middot; <!--{{ .Date.Format "Jan 2, 2006" }} &middot; -->{{ .ReadingTime }} min read</small></h1>
+      </div>
+    </header>
+
+    <section>
+      {{ .Content }}
+    </section>
+
+    <footer>
+      <div class="tags">
+        <div class="epilogue-label">TAGS</div>
+        <ul>
+          {{ range .Params.tags }}
+            <li><a href="/tags/{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+          <br style="clear:both" />
+        </ul>
+      </div>
+
+      <div class="author">
+        <img src="{{ $author.thumbnail | relURL }}" />
+        <strong>Written by {{ $author.name }}
+        {{ if $author.twitter_url }}
+          <span class="social-link"><a href="{{ $author.twitter_url }}"><i class="fa fa-twitter"></i></a></span>
+        {{ end }}
+        {{ if $author.linkedin_url }}
+          <span class="social-link"><a href="{{ $author.linkedin_url }}"><i class="fa fa-linkedin"></i></a></span>
+        {{ end }}
+        </strong>
+        <p>
+          {{ $author.bio }}
+        </p>
+        <br style="clear:both" />
+      </div>
+
+      {{ if .Params.credits  }}
+      <div class="epilogue-label" style="text-align: right;">CREDITS</div>
+      <p class="credits">
+        {{ .Params.credits | markdownify }}
+      </p>
+      {{ end }}
+    </footer>
+  </article>
+</section>
+
+<div class="cta-bottom">
+  <h3>CREATE A FINANCIAL LIFE YOU LOVE!</h3>
+  <p>
+    Sign-up for our occasional newsletter with articles and tips on financial life management.
+  </p>
+  {{ partial "mailchimp_form.html" . }}
+</div>
+{{ partial "footer.html" . }}

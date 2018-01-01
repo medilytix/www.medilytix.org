@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ .Title }}</title>
+
+    <link rel="stylesheet" href="{{ "css/normalize.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/skeleton.css" | relURL }}">
+
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6840532/7856152/css/fonts.css" />
+    <link rel="stylesheet" href="{{ "font-awesome-4.6.3/css/font-awesome.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/oasis.css" | relURL }}">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">  </head>
+
+  <body>
+    {{ if not (.Params.noheader) }}
+      <div id="logobar">
+        <span class="logobar-helper"></span><a href="/"><img src="{{ .Site.Params.logo | relURL }}" /></a>
+      </div>
+      {{ if not (.Params.nomenu) }}
+      <label class="menubar-trigger-label" for="menu-a">Menu</label>
+      <input type="checkbox" class="menubar-trigger" id="menu-a">
+      <ul id="menubar" class="menubar menubar-parent no-print">
+        {{ range .Site.Params.menu }}
+        <li class="menubar-item{{ if .button }} menubar-item-button{{ end }}{{ if .cta }} menubar-item-cta{{ end }}">
+          {{ if .children }}
+            <a href><label class="" for="menu-{{ substr .link 1 }}">{{ .label }} &blacktriangledown;</label></a>
+            <input type="checkbox" class="menubar-trigger" id="menu-{{ substr .link 1 }}">
+            <ul class="menubar-parent">
+              {{ range .children }}
+                <li class="menubar-item">
+                  <a href="{{ .link }}">{{ .label }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          {{ else }}
+            <a href="{{ .link }}"><span>{{ .label }}</span></a>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    {{ end }}
