@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medilytix</title>
+    <link>http://www.medilytix.org/</link>
+    <description>Recent content on Medilytix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Sep 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://www.medilytix.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Board of Directors</title>
+      <link>http://www.medilytix.org/board/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.medilytix.org/board/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;eight columns services&#34;&gt;
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Alexis_Sauer-Budge.jpg&#34; /&gt;&lt;br /&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/alexis-sauer-budge-64893b/&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Alexis Sauer-Budge, Ph.D.&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;President &amp;amp; Treasurer&lt;/h4&gt;
+      &lt;p&gt;
+        Alexis Sauer-Budge, PhD serves as Medilytix’s President and Treasurer.  She received her BS/MS degrees in Chemistry from Stanford University and her PhD in Biophysics from Harvard University.  For the past 15 years, Dr. Sauer-Budge’s research has focused on novel point of care diagnostics, tissue engineering, medical devices and scientific instrumentation.  She has worked both in industry (BioScale, Inc) and for non-profit research organizations (Fraunhofer USA – CMI).  She is driven to enable technological advances to improve human health.  Dr. Sauer-Budge currently is a consultant with the firm Exponent, Inc.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Nadine_SantaCruz.png&#34; /&gt;&lt;br /&gt;
+      
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.emmc.org/Providers/SantaCruz,-Nadine-P-,-MD/Cancer-Care.aspx&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Nadine SantaCruz, MD&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;Vice President &amp;amp; Secretary&lt;/h4&gt;
+      &lt;p&gt;
+        Nadine SantaCruz, MD is a pediatric hematologist/oncologist and a pediatric neurooncologist. She received her medical degree from the University of Colorado School of Medicine. She has a Masters in public health from Brown University. She completed her pediatric hematology/oncology fellowship at the Alpert Brown/Hasbro Children&amp;#39;s hospital in Providence, RI and her pediatric neurooncology fellowship at the Dana-Farber Cancer Institute/Boston Children&amp;#39;s Hospital. She is currently the clinical director at the Raish Peavy Pediatric Hematology and Oncology Center in Brewer, Maine. She is passionate about ensuring high quality, evidence-based medical care to those with limited access particularly individuals in rural communities and in the third world. She has volunteered on medical missions in Port Au Prince, Haiti and is currently serving as the Vice President and Secretary of Medilytix.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Peter_Gilbert.jpg&#34; /&gt;&lt;br /&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/peter-gilbert-3529216/&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Peter Gilbert, Ph.D.&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;Board Member&lt;/h4&gt;
+      &lt;p&gt;
+        Peter Gilbert, PhD, Board Member, is the Director of Biostatistics, Bioinformatics, and Epidemiology, Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center and Research Professor, Department of Biostatistics, University of Washington School of Public Health.  His research focuses on vaccine clinical trials and general biostatistical methods research, such as survival analysis, causal inference, and evaluation of surrogate endpoints.  He received his BS in Mathematics and his MS/PhD in Biostatistics from the University of Washington.  His postdoctoral training was conducted at Harvard University’s School of Public Health, in the Department of Biostatistics.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Kristi_Gilbert.jpg&#34; /&gt;&lt;br /&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/kristi-carpenter-gilbert-58ab4351/&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Kristi Gilbert&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;Board Member&lt;/h4&gt;
+      &lt;p&gt;
+        Kristi Gilbert, Board Member, is a passionate thinker and educator who deeply engages with people from cultures all over the world.  She’s lived in multiple locations North and South America and Europe.  She is fluent in Spanish and English.  She graduated Magna Cum Laude with a BA in Spanish Language and Literature from Pacific Lutheran University and a Masters of Education from Harvard University.  Her educational background and international experience will help guide Medilytix mission of providing open source software to low resource international settings.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Penny_Carothers.png&#34; /&gt;&lt;br /&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/penny-carothers-505b613/&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Penny Carothers&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;Board member&lt;/h4&gt;
+      &lt;p&gt;
+        Penny Carothers, Board Member, brings a background in non-profit management and communication, having served both as a board and staff member with several international non-profits based in the Seattle area. She holds an M.P.A. from the University of Washington’s Evans School of Public Policy and Governance, with a concentration in international relief and development, and a B.A. in history from Reed College.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+    &lt;/div&gt;
+    &lt;div class=&#34;four columns services&#34;&gt;
+      &lt;h4&gt;Why we do what we do&lt;/h4&gt;
+      &lt;p&gt;
+        Our board is motivated to use our talents to rectify the scientific and medical inequalities in the world.  We are deeply passionate about social justice and believe everyone deserves access to technological advances that improve human health.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.medilytix.org/projects/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.medilytix.org/projects/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;h4&gt;Bioelectric Sensor Simulator&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;seven columns services&#34;&gt;
+      &lt;p&gt;
+        The goal of this simulation effort is to better understand the potential for biomolecule analysis of solid-state nanopore
+        structures with active electronics. This is done by the finite element simultaneous solution of the Poisson Nernst-Plank
+        ion transport and Navier-Stokes fluid flow equations in the fluid pore region. The mathematically identical charge
+        carrier transport equations are solved in the semiconductor sensor and the solutions averlapped at the fluid/solid
+        interface. The finite element approach allows complex geometries to be treated for this multi-physics problem. Both
+        physics and biochemical expertise are needed to abtain useful results and is provided by members of the team.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;five columns services&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/projects/nanopore_sim.png&#34; style=&#34;width: 300px;&#34; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;h4&gt;Pediatric Tumor Screening AI&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;seven columns services&#34;&gt;
+      &lt;p&gt;
+        Early detection of pediatric tumors is essential for effective cancer treatment. Typically first line imaging offered to
+        pediatric patients is xrays or ultrasounds. However, the detection of tumors often requires expensive and less readily
+        available imaging modalities such as CT scan or MRI. Furthermore, the sensitivity of xray and ultrasound varies by
+        the skill and experience of the physician reading the image. Our goal is to develop open source imaging software
+        that would use the information in xrays and ultrasounds to identify areas of concern that might not otherwise be
+        detected. This would permit physicians, in an objective and cost effective manner, identify a subset of patients
+        that require further work up. This would be particularly powerful tool for pediatric patients that are evaluated
+        in rural setting where there is limited availability of pediatric subspecialists as well as in the developing world
+        where CT and MRI availability is very limited.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;five columns services&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/projects/shutterstock_71348266.jpg&#34; style=&#34;width: 300px;&#34; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Researchers in Residence</title>
+      <link>http://www.medilytix.org/researchers/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.medilytix.org/researchers/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;eight columns services&#34;&gt;
+      
+  &lt;section class=&#34;profile&#34;&gt;
+    &lt;div class=&#34;thumbnail&#34;&gt;
+      &lt;img src=&#34;http://www.medilytix.org/images/people/Jon_Sauer.jpg&#34; /&gt;&lt;br /&gt;
+      
+      
+        &lt;span class=&#34;social-link&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/jon-sauer-2941942/&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      
+      
+  &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;h2&gt;Jon Sauer, Ph.D.&lt;/h2&gt;
+      &lt;h4 class=&#34;title&#34;&gt;Researcher in Residence&lt;/h4&gt;
+      &lt;p&gt;
+        Jon R. Sauer, PhD, has an undergraduate degree in physics from Stanford, and a PhD in particle physics from Tufts. He was a high-energy particle and accelerator physicist for 12 years. After his stint as a particle physicist, he was involved in high-performance computer and telecommunication system design for 10 years. Subsequently, he spent 19 years in academia developing and teaching at the interface of optics and computing. For the last 15 years, Dr. Sauer has been involved in the computing and hardware design of nanoscale biotech systems, part of the time while still an EE prof at the University of Colorado, Boulder. For a few years, he was the CEO and co-founder of the biotech company, Eagle R&amp;amp;D.  Now he devotes his talents to solving unmet needs at the interface of computational simulation and medicine.
+      &lt;/p&gt;
+
+      
+    &lt;/div&gt;
+    &lt;br style=&#34;clear: both;&#34; /&gt;
+  &lt;/section&gt;
+
+
+    &lt;/div&gt;
+    &lt;div class=&#34;four columns services&#34;&gt;
+      &lt;h4&gt;We are science geeks&lt;/h4&gt;
+      &lt;p&gt;
+        We love science and technology and are driven to make a difference in the world.  What could be more fun than developing code to help solve technological and medical problems?  The answer: NOTHING!
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://www.medilytix.org/home/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.medilytix.org/home/</guid>
+      <description>&lt;div class=&#34;cover-image&#34; style=&#34;background-image:url(&#39;/images/stock/norbert-levajsics-186874.jpg&#39;); height: 60rem; position: relative;&#34;&gt;
+  &lt;div class=&#34;overlay-headline&#34;&gt;
+    &lt;div class=&#34;overlay-headline-inner&#34;&gt;
+      &lt;h1&gt;Open access biomedical research software &lt;/h1&gt;
+      &lt;div style=&#34;text-align: right; margin-top: 2rem;&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;overlay-headline&#34; style=&#34;position: absolute; bottom: 0; right: 0;&#34;&gt;
+    &lt;div class=&#34;overlay-headline-inner&#34; style=&#34;text-align: right;&#34;&gt;
+      &lt;h2&gt;Fostering collaborative innovation in medical analytics.&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;home&#34;&gt;
+  &lt;div class=&#34;container&#34; style=&#34;margin-top: 5rem;&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;twelve columns&#34;&gt;
+        &lt;h4 style=&#34;text-align: center;&#34;&gt;Our founding principles are to integrate three core concepts to improve human health:&lt;/h4&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;four columns&#34; style=&#34;text-align:center; padding-top: 10rem; padding-bottom: 10rem;&#34;&gt;
+        &lt;p&gt;&lt;i class=&#34;fa fa-area-chart&#34; style=&#34;font-size:60px&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+        Analytics
+      &lt;/div&gt;
+      &lt;div class=&#34;four columns&#34; style=&#34;text-align:center; padding-top: 10rem; padding-bottom: 10rem;&#34;&gt;
+        &lt;p&gt;&lt;i class=&#34;fa fa-users&#34; style=&#34;font-size:60px&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+        Collaboration
+      &lt;/div&gt;
+      &lt;div class=&#34;four columns&#34; style=&#34;text-align:center; padding-top: 10rem; padding-bottom: 10rem;&#34;&gt;
+        &lt;p&gt;&lt;i class=&#34;fa fa-share-alt&#34; style=&#34;font-size:60px&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+        Open Access
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;twelve columns&#34;&gt;
+        &lt;a href=&#34;http://www.medilytix.org/projects&#34;&gt;Our projects...&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; --&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div style=&#34;padding: 5rem 2rem; text-align: center;&#34;&gt;
+    &lt;a class=&#34;button button-cta&#34; style=&#34;font-size: 18px;&#34; href=&#34;http://www.medilytix.org/projects&#34;&gt;Our Projects&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
