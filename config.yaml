@@ -1,6 +1,6 @@
 baseurl: "http://www.medilytix.org/"
 title: "Medilytix"
-#googleAnalytics: "UA-XXXXXXXX-X"
+googleAnalytics: "UA-112050902-1"
 languageCode: "en-us"
 theme: "oasis"
 
